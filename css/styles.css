@@ -14,7 +14,7 @@ body {
 
 .profile-img {
     height: 200px;
-    width: 200px;
+    width: 220px;
     border-radius: 50%;
 }
 
@@ -89,6 +89,7 @@ h3 {
 }
 
 p {
+    font-size: 1.2rem;
     line-height: 2;
 }
 
@@ -103,6 +104,7 @@ a {
     color: #11999E;
     margin: 10px 15px;
     text-decoration: none;
+    font-size: 1.1rem;
 }
 
 a:hover {
@@ -138,4 +140,13 @@ a:hover {
 .copywrite {
     color: #EAF6F6;
     font-size: .75rem;
+}
+
+@media(max-width: 600px){
+    .mountain-img{
+        width: 100%;
+    }
+    .cloud-img-2{
+        top: 60%;
+    }
 }
