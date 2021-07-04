@@ -12,6 +12,12 @@ body {
     padding-top: 100px;
 }
 
+.profile-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
 h1 {
     color: #66BFBF;
     font-size: 5rem;
